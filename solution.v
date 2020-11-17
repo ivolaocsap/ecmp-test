@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 `include "iob_lib.vh"
-
+//pleasee let this work
 module circuit
   #(
     parameter W=32
@@ -26,7 +26,7 @@ module circuit
    //iteration counter
    `COUNTER_ARE(clk, rst, cnt!=99, cnt)
 
-   //compute next why
+  //testestestes
    `COMB y_int = y_int_n_1 + y_int_n_2 + (cnt == 1'b1);
    
    
